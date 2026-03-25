@@ -45,14 +45,42 @@ export default function Home() {
         </div>
       </div>
 
-      <p className="bg-amber-500 text-white text-center py-15 text-4xl ">
-        Apply to enroll for our upcoming programs 
+      <p className="bg-amber-500 text-white text-center py-15 text-4xl rounded-4xl mb-6 ">
+        Apply to enroll for our upcoming programs
         <br></br>
-
- <span className=" text-black font-bold ">
-  Starting 18th & 20th February 2026
- </span>
+        <span className=" text-black font-bold ">
+          Starting 18th & 20th February 2026
+        </span>
       </p>
+
+    
+
+      <div>
+        <Image
+          className="mt-6 ml-120 mb-10"
+          src={photo3}
+          alt="photo3"
+          width={300}
+          height={50}
+          priority
+        />
+      </div>
+
+      <div>
+        <p className="bg-amber-500 text-white text-center py-15 text-4xl rounded-4xl mb-6 ">
+          <a href="https://youtube.com/" target="-blank">
+            APPLY NOW
+          </a>
+          <br></br>
+          <span className=" text-black font-bold ">
+            February Intake Programs
+          </span>
+        </p>
+      </div>
+
+      <button className="border-4 border-black bg-blue-400 hover:bg-white text-pink-900 ml-100 py-4 px-6 rounded-4xl contain-layout animate-pulse  ">
+        LEARN MORE ABOUT THE PROGRAM
+      </button>
     </div>
   );
 }
